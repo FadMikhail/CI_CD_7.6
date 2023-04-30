@@ -31,6 +31,7 @@
 
 3. Используя свой аккаунт на GitHub, сделайте себе форк [репозитория](https://github.com/netology-code/sdvps-materials.git). В этом же репозитории находится [дополнительный материал для выполнения ДЗ](https://github.com/netology-code/sdvps-materials/blob/main/CICD/8.2-hw.md).
 
+![image](https://user-images.githubusercontent.com/132131230/235352247-e0bb603c-40b8-4a59-8ef0-18b9076d7eed.png)
 
 4. Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта ```go test .``` и  ```docker build .```.
 
