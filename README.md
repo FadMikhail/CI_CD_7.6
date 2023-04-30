@@ -25,9 +25,14 @@
 
 ![image](https://user-images.githubusercontent.com/132131230/235350483-b0fee8c2-14e5-45d4-bf12-b6041e1391b4.png)
 
-3. Установите на машину с jenkins [golang](https://golang.org/doc/install).
-4. Используя свой аккаунт на GitHub, сделайте себе форк [репозитория](https://github.com/netology-code/sdvps-materials.git). В этом же репозитории находится [дополнительный материал для выполнения ДЗ](https://github.com/netology-code/sdvps-materials/blob/main/CICD/8.2-hw.md).
-5. Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта ```go test .``` и  ```docker build .```.
+2. Установите на машину с jenkins [golang](https://golang.org/doc/install).
+
+![image](https://user-images.githubusercontent.com/132131230/235352041-93cf1514-ed34-4a7f-bbca-029ecb3c4a58.png)
+
+3. Используя свой аккаунт на GitHub, сделайте себе форк [репозитория](https://github.com/netology-code/sdvps-materials.git). В этом же репозитории находится [дополнительный материал для выполнения ДЗ](https://github.com/netology-code/sdvps-materials/blob/main/CICD/8.2-hw.md).
+
+
+4. Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта ```go test .``` и  ```docker build .```.
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
